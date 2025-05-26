@@ -1,0 +1,18 @@
+#include "grupp_18.h"
+
+
+
+int main(void)
+{
+   init_stuff();
+   char str[20];
+   int millisek, sek;
+   while(1)
+   {
+        millisek=nrfx_rtc_counter_get(&rtc_instance)/32.768;
+        sek=millisek/1000;
+        sprintf(str,"%d s, or %d ms \r\n",sek,millisek);
+        uarte_write(str,strlen(str));
+        nrfx_systick_delay_ms(1000);
+   }
+}
