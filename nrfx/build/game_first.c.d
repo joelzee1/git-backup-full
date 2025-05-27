@@ -1,5 +1,6 @@
-H:/programering/nrfx/src/sample/../../build/main.c.o: main.c game_first.h \
- grupp_18.h H:/programering/nrfx/drivers/include/nrfx_uarte.h \
+H:/programering/nrfx/src/sample/../../build/game_first.c.o: game_first.c \
+ game_first.h grupp_18.h \
+ H:/programering/nrfx/drivers/include/nrfx_uarte.h \
  H:/programering/nrfx/nrfx.h \
  H:/programering/nrfx/src/sample/nrfx_config.h \
  H:/programering/nrfx/src/nrfx_config_common.h \

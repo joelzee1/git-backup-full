@@ -12,12 +12,11 @@
 #include <nrfx_systick.h>
 #include <nrfx_rtc.h>
 
-
 extern uint8_t uarte_buffer;
 extern nrfx_uarte_t instance;
 extern nrfx_rtc_t rtc_instance;
 
-//void init_stuff(void);
+void init_stuff(void);
 
 void string_read(char string[]);
 
